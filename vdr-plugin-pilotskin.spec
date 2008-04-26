@@ -2,7 +2,7 @@
 %define plugin	pilotskin
 %define name	vdr-plugin-%plugin
 %define version	0.0.3
-%define rel	3
+%define rel	4
 
 Summary:	VDR plugin: A zapping co-pilot
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL+
 URL:		http://vdrwiki.free.fr/vdr/pilotskin/
 Source:		http://vdrwiki.free.fr/vdr/pilotskin/files/vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -26,6 +26,7 @@ event and launching timers.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %build
 %vdr_plugin_build
