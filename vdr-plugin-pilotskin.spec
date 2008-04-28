@@ -2,7 +2,7 @@
 %define plugin	pilotskin
 %define name	vdr-plugin-%plugin
 %define version	0.0.3
-%define rel	4
+%define rel	5
 
 Summary:	VDR plugin: A zapping co-pilot
 Name:		%name
