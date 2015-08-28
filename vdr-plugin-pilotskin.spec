@@ -3,7 +3,7 @@
 Summary:	VDR plugin: A zapping co-pilot
 Name:		vdr-plugin-%plugin
 Version:	0.0.3
-Release:	9
+Release:	10
 Group:		Video
 License:	GPL+
 URL:		http://vdrwiki.free.fr/vdr/pilotskin/
