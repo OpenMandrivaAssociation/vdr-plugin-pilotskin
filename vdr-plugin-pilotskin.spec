@@ -6,7 +6,7 @@ Version:	0.0.3
 Release:	10
 Group:		Video
 License:	GPL+
-URL:		http://vdrwiki.free.fr/vdr/pilotskin/
+URL:		https://vdrwiki.free.fr/vdr/pilotskin/
 Source:		http://vdrwiki.free.fr/vdr/pilotskin/files/vdr-%plugin-%{version}.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
